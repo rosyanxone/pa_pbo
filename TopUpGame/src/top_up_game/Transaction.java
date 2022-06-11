@@ -172,7 +172,7 @@ public class Transaction {
                         n.get(i).getUserIdGame(),
                         n.get(i).getMetodePembayaran(),
                         n.get(i).getTanggalTransaksi(),
-                        n.get(i).getTotal(),
+                        "Rp."+n.get(i).getTotal(),
                         n.get(i).getId()
                     );
             }
